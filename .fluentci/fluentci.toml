@@ -1,0 +1,7 @@
+[[steps]]
+name = "Run tests"
+command = ["fluentci run --wasm buck test //..."]
+
+[[steps]]
+name = "Build"
+command = ["fluentci run --wasm buck build //..."]
